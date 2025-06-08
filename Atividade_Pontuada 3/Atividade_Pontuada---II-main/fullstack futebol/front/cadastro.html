@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <img src="pratos.jpg" alt="pratos" class="logo">
+        <h2>Cadastro de Prato</h2>
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Nome do Prato" required>
+            <input type="text" id="descricao" placeholder="Descrição" required>
+            <input type="text" id="preco" placeholder="Preço" required>
+            <input type="text" id="categoria" placeholder="Categoria" required>
+            <input type="text" id="disponibilidade" placeholder="Disponibilidade" required>
+            <input type="text" id="url" placeholder="Url da Imagem do Prato" required>
+            <button type="button" onclick="cadastrarUsuario()">Cadastrar</button>
+        </form>
+
+        <a href="usuarios.html" class="link-usuarios">Ver pratos cadastrados</a>
+
+    </div>
+
+    <div id="mensagem" class="mensagem oculto" onclick="fecharMensagem()"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
